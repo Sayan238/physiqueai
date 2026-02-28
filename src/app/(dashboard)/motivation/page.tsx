@@ -72,7 +72,7 @@ export default function MotivationPage() {
     const [disciplineScore, setDisciplineScore] = useState(0);
     const [liked, setLiked] = useState(false);
     const [likeCount, setLikeCount] = useState(0);
-    const [challengeAccepted, setChallengeAccepted] = useState<Record<number, boolean>>({});
+    const [challengeAccepted, setChallengeAccepted] = useState<Record<string, boolean>>({});
     const [todayChallenge, setTodayChallenge] = useState(dailyChallenges[0]);
     const [copied, setCopied] = useState(false);
 
